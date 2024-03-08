@@ -44,37 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC2FL81UTjVWqBRO2T3VhOFUSIoYc3Az5U',
-    appId: '1:684747738876:web:1364d66708a97374a91179',
-    messagingSenderId: '684747738876',
-    projectId: 'register-db-1',
-    authDomain: 'register-db-1.firebaseapp.com',
-    storageBucket: 'register-db-1.appspot.com',
+    apiKey: 'AIzaSyA9PT3eBQ7Tm63WC5JZCwItGN0ljNz9VL8',
+    appId: '1:154201309435:web:123820cdcdd61cd650f05e',
+    messagingSenderId: '154201309435',
+    projectId: 'register-c45a5',
+    authDomain: 'register-c45a5.firebaseapp.com',
+    storageBucket: 'register-c45a5.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDc4_ALb0HKPjErkeyZY54JvOh2iDmWtZU',
-    appId: '1:684747738876:android:10b3d79617b95f64a91179',
-    messagingSenderId: '684747738876',
-    projectId: 'register-db-1',
-    storageBucket: 'register-db-1.appspot.com',
+    apiKey: 'AIzaSyDup-v9c0nboVAHfS7g1u0LRUENAhDfOBM',
+    appId: '1:154201309435:android:e351713999b337e850f05e',
+    messagingSenderId: '154201309435',
+    projectId: 'register-c45a5',
+    storageBucket: 'register-c45a5.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBzGyE_cPTwOSxooeYjAcJ27Od5FqfPMwE',
-    appId: '1:684747738876:ios:526ed6577002e94ea91179',
-    messagingSenderId: '684747738876',
-    projectId: 'register-db-1',
-    storageBucket: 'register-db-1.appspot.com',
+    apiKey: 'AIzaSyDWRkMOmoPLaVqGxifG9quIHYpCftJanfw',
+    appId: '1:154201309435:ios:91362fbf72cf724850f05e',
+    messagingSenderId: '154201309435',
+    projectId: 'register-c45a5',
+    storageBucket: 'register-c45a5.appspot.com',
+    androidClientId: '154201309435-te1s4175dkqj1s1pcgutpm4r8kc8oca5.apps.googleusercontent.com',
+    iosClientId: '154201309435-slk8401fah5pmaifpefv29604sjvuuam.apps.googleusercontent.com',
     iosBundleId: 'com.example.register',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBzGyE_cPTwOSxooeYjAcJ27Od5FqfPMwE',
-    appId: '1:684747738876:ios:94e9ec2a0f96b61da91179',
-    messagingSenderId: '684747738876',
-    projectId: 'register-db-1',
-    storageBucket: 'register-db-1.appspot.com',
+    apiKey: 'AIzaSyDWRkMOmoPLaVqGxifG9quIHYpCftJanfw',
+    appId: '1:154201309435:ios:7992d7a02c4d657c50f05e',
+    messagingSenderId: '154201309435',
+    projectId: 'register-c45a5',
+    storageBucket: 'register-c45a5.appspot.com',
+    androidClientId: '154201309435-te1s4175dkqj1s1pcgutpm4r8kc8oca5.apps.googleusercontent.com',
+    iosClientId: '154201309435-b2apdljl86j7fv3c6ob1rjgj0apagk8h.apps.googleusercontent.com',
     iosBundleId: 'com.example.register.RunnerTests',
   );
 }
